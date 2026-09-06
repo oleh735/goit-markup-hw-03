@@ -7,4 +7,14 @@
 .features-cards-text {
   line-height: 1.5;
   color: #434455;
+  margin-top: 8px;
+}
+
+.features {
+  padding: 120px 141px;
+}
+
+.features-cards-wrapper {
+  display: flex;
+  gap: 24px;
 }

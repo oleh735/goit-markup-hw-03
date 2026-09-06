@@ -1,5 +1,6 @@
 .team {
   background-color: #f4f4fd;
+  padding: 120px 141px;
 }
 
 .team-title {
@@ -12,6 +13,8 @@
 
 .team-member {
   background-color: #ffffff;
+  width: calc((100%-72px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
 .team-member-name {
@@ -19,10 +22,19 @@
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .team-member-role {
   line-height: 1.5;
   text-align: center;
   color: #434455;
+  margin-bottom: 32px;
+}
+
+.team-cards-wrapper {
+  display: flex;
+  margin-top: 72px;
+  gap: 24px;
 }

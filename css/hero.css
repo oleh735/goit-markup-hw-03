@@ -1,5 +1,7 @@
 .hero {
   background: #2e2f42;
+  padding: 188px 141px;
+  width: 100%;
 }
 
 .hero-title {
@@ -8,16 +10,28 @@
   line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
+  max-width: 496px;
   color: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  display: block;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  min-width: 169px;
   background-color: #4d5ae5;
   font-weight: 500;
+  white-space: nowrap;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
 }
 
 .hero-button:hover,

@@ -5,6 +5,7 @@
   line-height: 1.33333;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .accent {
@@ -31,4 +32,26 @@
 .contacts:hover,
 .contacts:focus {
   color: #404bbf;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px 15px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts-container {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts-wrapper {
+  margin-left: auto;
 }

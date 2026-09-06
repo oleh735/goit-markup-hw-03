@@ -1,5 +1,6 @@
 .footer {
   background-color: #2e2f42;
+  padding: 100px 141px;
 }
 
 .footer-logo {
@@ -20,4 +21,12 @@
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   color: #f4f4fd;
+  margin-top: 16px;
+}
+
+.footer-left {
+  width: 264px;
+  padding: 0;
+  padding-left: 15px;
+  padding-right: auto;
 }
