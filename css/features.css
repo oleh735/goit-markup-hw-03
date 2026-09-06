@@ -18,3 +18,7 @@
   display: flex;
   gap: 24px;
 }
+
+.feature-card {
+  width: calc((100% - 72px) / 4);
+}

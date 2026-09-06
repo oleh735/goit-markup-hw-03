@@ -1,6 +1,7 @@
 .team {
   background-color: #f4f4fd;
-  padding: 120px 141px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -9,12 +10,17 @@
   line-height: 1.11111;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-member {
   background-color: #ffffff;
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
+}
+
+.team-member-description {
+  padding: 32px 16px;
 }
 
 .team-member-name {
@@ -22,7 +28,6 @@
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -30,11 +35,9 @@
   line-height: 1.5;
   text-align: center;
   color: #434455;
-  margin-bottom: 32px;
 }
 
 .team-cards-wrapper {
   display: flex;
-  margin-top: 72px;
   gap: 24px;
 }
