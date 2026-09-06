@@ -1,0 +1,10 @@
+.features-cards-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.features-cards-text {
+  line-height: 1.5;
+  color: #434455;
+}

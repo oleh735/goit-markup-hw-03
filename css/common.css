@@ -1,0 +1,20 @@
+body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
